@@ -1,0 +1,50 @@
+const mockChats = [
+  {
+    id: 1,
+    name: 'Friends',
+    avatar: 'https://via.placeholder.com/40',
+    status: 'Hey there! How are you?',
+    time: 'Saturday',
+    isOnline: true,
+    messages: [
+      { id: 1, text: 'Hey there, how are you doing?', time: '6:45 pm', sender: 'them' },
+      { id: 2, text: 'Are you up to some fun this weekend?', time: '7:22 pm', sender: 'them' },
+      { id: 3, text: "I'm thinking of going to the beach", time: '7:23 pm', sender: 'them' },
+      { id: 4, text: 'Sure man', time: '7:45 pm', sender: 'you' },
+      { id: 5, text: 'When are you free? Let\'s meet at the cafe first', time: '7:50 pm', sender: 'you' },
+    ],
+    unread: 0,
+  },
+  {
+    id: 2,
+    name: 'Family',
+    avatar: 'https://via.placeholder.com/40',
+    status: 'Papa: You gotta be kidding me',
+    time: '10:24 PM',
+    isOnline: false,
+    messages: [],
+    unread: 1,
+  },
+  {
+    id: 3,
+    name: 'Amor ❤️',
+    avatar: 'https://via.placeholder.com/40',
+    status: 'You do not understand what I\'m...',
+    time: 'Saturday',
+    isOnline: false,
+    messages: [],
+    unread: 0,
+  },
+  {
+    id: 4,
+    name: 'John',
+    avatar: 'https://via.placeholder.com/40',
+    status: 'Dude I\'m going crazy fast',
+    time: 'Saturday',
+    isOnline: false,
+    messages: [],
+    unread: 0,
+  },
+];
+
+export default mockChats;
